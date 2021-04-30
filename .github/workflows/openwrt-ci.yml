@@ -2356,7 +2356,7 @@ jobs:
           # CONFIG_PACKAGE_kmod-ipt-ulog is not set
           # CONFIG_PACKAGE_kmod-netatop is not set
           CONFIG_PACKAGE_kmod-nf-conntrack=y
-          CONFIG_PACKAGE_kmod-nf-conntrack-netlink=y
+          # CONFIG_PACKAGE_kmod-nf-conntrack-netlink is not set
           CONFIG_PACKAGE_kmod-nf-conntrack6=y
           CONFIG_PACKAGE_kmod-nf-flow=y
           CONFIG_PACKAGE_kmod-nf-ipt=y
@@ -4378,7 +4378,7 @@ jobs:
           # CONFIG_PACKAGE_luci-app-netdata is not set
           # CONFIG_PACKAGE_luci-app-nfs is not set
           # CONFIG_PACKAGE_luci-app-nft-qos is not set
-          CONFIG_PACKAGE_luci-app-nlbwmon=y
+          # CONFIG_PACKAGE_luci-app-nlbwmon is not set
           # CONFIG_PACKAGE_luci-app-noddos is not set
           # CONFIG_PACKAGE_luci-app-nps is not set
           # CONFIG_PACKAGE_luci-app-ntpc is not set
@@ -4566,9 +4566,6 @@ jobs:
           CONFIG_PACKAGE_luci-i18n-firewall-zh-cn=y
           # CONFIG_PACKAGE_luci-i18n-firewall-zh-tw is not set
           CONFIG_PACKAGE_luci-i18n-flowoffload-zh-cn=y
-          # CONFIG_PACKAGE_luci-i18n-nlbwmon-ja is not set
-          # CONFIG_PACKAGE_luci-i18n-nlbwmon-ru is not set
-          CONFIG_PACKAGE_luci-i18n-nlbwmon-zh-cn=y
           CONFIG_PACKAGE_luci-i18n-ramfree-zh-cn=y
           # CONFIG_PACKAGE_luci-i18n-samba-ca is not set
           # CONFIG_PACKAGE_luci-i18n-samba-cs is not set
@@ -5582,7 +5579,7 @@ jobs:
           # CONFIG_PACKAGE_netsniff-ng is not set
           # CONFIG_PACKAGE_nextdns is not set
           # CONFIG_PACKAGE_nfdump is not set
-          CONFIG_PACKAGE_nlbwmon=y
+          # CONFIG_PACKAGE_nlbwmon is not set
           # CONFIG_PACKAGE_noddos is not set
           # CONFIG_PACKAGE_noping is not set
           # CONFIG_PACKAGE_npc is not set
@@ -6398,7 +6395,6 @@ jobs:
           # CONFIG_PACKAGE_fontconfig is not set
           # end of Font-Utils
           # end of Xorg
-
           EOF
 
           #
